@@ -19,7 +19,7 @@
     <h1>Mi compañera más linda <span style="color: red;">❤️❤️❤️</span></h1>
     <button onclick="mostrarFoto()">Mostrar Foto</button>
     <div id="image-container">
-        <img id="imagen" src="" alt="Foto de la compañera">
+        <img id="imagen" src="" alt="Foto de la compañera" onerror="console.error('La imagen no se pudo cargar. Verifica la ruta y el nombre del archivo.')">
     </div>
     <script>
         function mostrarFoto() {
